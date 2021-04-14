@@ -28,9 +28,9 @@ workflows:
       - deploy1:
           filters:
             branches:
-              only: master
+              only: main
       - deploy2:
           filters:
             branches:
-              only: master
+              only: main
 
