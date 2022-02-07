@@ -14,7 +14,7 @@ cbfstool_args:
         - "lzma"
 whitelist:
         - "CONFIG_ARCH_X86=y"
-        - "CONFIG_MMCONF_SUPPORT=y"
+        - "CONFIG_ECAM_MMCONF_SUPPORT=y"
         - "CONFIG_BOARD_PRODRIVE_HERMES=y"
 blacklist:
         - "CONFIG_GDB_WAIT=y"
